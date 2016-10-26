@@ -1,0 +1,38 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+
+body
+{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:100px;
+    border-style:groove;
+    width:1000px;
+    height:auto;
+}
+#login
+{
+    margin-left:350px;
+    margin-top:50px;
+    width:300px;
+    height:100px;
+    
+}
+#tishi
+{
+    width:350px;
+    height:20px;
+    margin-top:0px;
+    margin-left:350px;
+    
+}
+
+#foot
+{
+    width:210px;
+    height:20px;
+    font-size:10px;
+    margin-top:50px;
+    margin-left:400px;
+}

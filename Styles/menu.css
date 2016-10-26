@@ -1,0 +1,42 @@
+﻿#daohang 
+{
+    margin-left:2px;
+    width:200px;
+    height:644px;
+    border-bottom-style:groove;
+    background-image:url('../Image/daohang.png');
+    background-repeat:no-repeat;
+}
+
+#daohang p
+{
+    font-family:黑体;
+    width:150px;
+    margin-left:25px;
+    text-decoration:none;
+    
+}
+
+a:link
+{
+    color:#ff0000;
+    text-decoration:none;
+    
+}
+a:visited
+{
+    color:#ff0000;
+    text-decoration:none;
+}
+a:hover
+{
+    color:#000000;
+    text-decoration:none;
+    
+}
+a:active
+{
+    color:#ff0000;
+    text-decoration:none;
+    
+}
