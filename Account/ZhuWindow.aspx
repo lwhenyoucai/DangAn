@@ -8,17 +8,17 @@
 <link rel="Stylesheet" href="../Styles/menu.css" type="text/css" />
 <style type="text/css">
 
-body 
+    body 
 {
-    width:1400px;
+    width:1394px;
     height:645px;
 	margin-left:auto;
 	margin-right:auto;
 }
 
-    .style1
+    .style2
     {
-        width: 15%;
+        width: 85%;
     }
 
 </style>
@@ -27,14 +27,14 @@ body
 </head>
 <body>
     <asp:Image ID="Image1" runat="server" Width="1395" Height="100" 
-        ImageUrl="~/Image/heard.png" BorderStyle="Groove"/>
-    <table width="1400" style="height: 652px">
+        ImageUrl="~/Image/login_head.png" BorderStyle="Groove"/>
+    <table style="height: 652px; width: 1399px;">
         <tr>
             <td width="1" bgcolor="#353c44"></td>
 
             <td valign="top">
                 <form runat="server" id="daohang">
-                    <br/><br/><p>
+                    <br/><br/><br/><br/><br/><br/><p>
                         <asp:Image ID="Image2" runat="server" ImageUrl="~/Image/ftv2mnode.gif" />
                         <strong><a href="">系统用户管理</a><br/><br/></strong>
                         &nbsp;
@@ -62,16 +62,16 @@ body
                          &nbsp;
                         <asp:Image ID="Image9" runat="server" ImageUrl="~/Image/ftv2node.gif"/>
                         <a href="">修改登录密码</a></p>
-                    <br/><br/>
+                    <br/>
                     &nbsp;&nbsp;&nbsp;<asp:ImageButton ID="ImageButton" 
-                        runat="server" ImageUrl="~/Image/longout.gif" Height="24px" onclick="Out_Click" 
+                        runat="server" ImageUrl="~/Image/longout.gif" Height="29px" onclick="Out_Click" 
                         Width="103px" OnClientClick="return confirm('你确定要退出吗？')"/>
                 </form>
             </td>
         
             <td width="3" bgcolor="#669900">&nbsp;</td>
-            <td width="85%" valign="top" id="iFrame">
-                <iframe name="iFrame" width="100%" src="Welcome.aspx" style="height: 640px"></iframe>
+            <td valign="top" id="iFrame" class="style2">
+                <iframe name="iFrame" src="Welcome.aspx" style="height: 640px; width: 100%;"></iframe>
             </td>
 
             <td width="0" bgcolor="#353c44"></td>

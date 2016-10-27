@@ -11,7 +11,7 @@
 
     <form id="form1" runat="server">
         <asp:Image ID="Image1" runat="server" Width="1000" Height="100" 
-        ImageUrl="~/Image/heard.png"/>
+        ImageUrl="~/Image/login_head.png"/>
     <hr>
         <div id ="login">
             <asp:Label ID="username" runat="server" Text="用户名：" ></asp:Label>
